@@ -1,0 +1,28 @@
+package week1.day2;
+
+public class FindIntersection {
+
+	public static void main(String[] args) {
+		int[] a1 = {3,2,11,4,6,7};
+		int[] a2 = {1,2,8,4,9,7};
+		
+		int size = a1.length;
+		int size1 = a2.length;
+		System.out.println(size);
+		System.out.println(size1);
+		
+	for (int i=0;i<size;i++)
+		{
+			for (int j=0;j<size;j++)
+			{
+				if(a1[i]==a2[j])
+				{
+					System.out.println("Number" +a1[i]);
+				}
+			}
+
+		} 
+
+	}
+
+}
